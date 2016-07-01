@@ -10,7 +10,7 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 describe('kata unit tests', function () {
 
-    var testCases = [[0, 1], [1, 1], [2, 2], [3, 3], [4, 5], [5, 8], [6, 13], [7, 21]];
+    var testCases = [[0, 0], [1, 1], [2, 1], [3, 2], [4, 3], [5, 5], [6, 8], [7, 13], [8, 21], [20, 6765]];
 
     (0, _it_multiple2.default)('fib1', function (n, expected) {
         expect((0, _kata.fib1)(n)).toBe(expected);

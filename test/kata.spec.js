@@ -4,14 +4,16 @@ import it_multiple from './it_multiple';
 describe('kata unit tests', () => {
 
     const testCases = [
-        [0, 1],
-        [1, 1],
-        [2, 2],
-        [3, 3],
-        [4, 5],
-        [5, 8],
-        [6, 13],
-        [7, 21]
+        [0, 0], 
+        [1, 1], 
+        [2, 1],
+        [3, 2],
+        [4, 3],
+        [5, 5],
+        [6, 8],
+        [7, 13],
+        [8, 21],
+        [20, 6765]
     ];
 
     it_multiple(
